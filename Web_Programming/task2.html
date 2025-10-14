@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Legally Blonde: The Musical 20XX - Contact Us</h1>
+    </header>
+    <!------------------------------------------------------------ Navigation ---------------------------------------------------------------->
+    <nav>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=J51ncHP_BrY">Home</a></li>
+            <li><a href="https://www.youtube.com/watch?v=s86-Z-CbaHA">About</a></li>
+            <li><a href="task2.html"></a></li>
+        </ul>
+    </nav>
+    <!--------------------------------------------------------------- Details ----------------------------------------------------------------->
+    <details>
+        <h2>Our Cast</h2>
+        <table>
+            <tr>
+                <th>Oscar Wilson</th>
+                <th>Juliette Adlard</th>
+            </tr>
+            <tr>
+                <td><img src="laura_bell_bundy.jpg" alt="image of Oscar Wilson" style="width:150px;height:150px"></td>
+                <td><img src="christian_borle.jpg" alt="image of Juliette Adlard" style="width:150px;height:150px"></td>
+            </tr>
+            <tr>
+                <td>Elle Woods</td>
+                <td>Emmett Forrest</td>
+            </tr>
+        </table>
+    </details>
+    <!--------------------------------------------------------------- Contact Form ------------------------------------------------------------->
+    <main>
+        <h2>Contact Form</h2>
+        <form>
+            <!--------------------------------------------------- Name ------------------------------------------>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name_input" required><br>
+
+            <!--------------------------------------------------- Email Address --------------------------------->
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" name="email_input" required><br>
+
+            <!--------------------------------------------------- Message --------------------------------------->
+            <label for="message">Your Message</label><br>
+            <textarea type="message" name="message" required>Enter your message:</textarea><br>
+
+            <!--------------------------------------------------- Who to Contact -------------------------------->
+            <p>Who would you like to contact?</p>
+            <input type="radio" id="Oscar Wilson" name="Contact_Choice" value="Oscar Wilson">
+            <label for="Oscar Wilson">Oscar Wilson</label><br>
+            <input type="radio" id="Juliette Adlard" name="Contact_Choice" value="Juliette Adlard">
+            <label for="Juliette Adlard">Juliette Adlard</label><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </main>
+</body>
+</html>
