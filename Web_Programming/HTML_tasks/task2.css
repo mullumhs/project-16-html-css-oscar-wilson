@@ -1,0 +1,49 @@
+body {
+    padding: 1% 5% 0% 5%;
+}
+
+p {
+    color: #1f2f3f;
+}
+
+nav {
+    border-bottom: 3px solid brown;
+    border-top: 3px solid brown;
+    background-color: aliceblue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+li {
+    padding-left: 0;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+a {
+    color: chartreuse ;
+}
+
+table {
+    padding-left: 5%;
+}
+
+h2 {
+    color: #1f2f3f;
+    font-family: "Lexend", sans-serif;
+    padding-left: 5%;
+}
+
+h1 {
+    font-family: "Lexend", sans-serif;
+    padding-left: 5%;
+    color: #1f2f3f;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-bottom: 0;
+}

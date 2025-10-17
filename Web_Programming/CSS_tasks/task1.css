@@ -1,11 +1,19 @@
+body {
+    background-color: black;
+    
+}
+
 header {
-    background-color: beige;
+    background-color: aqua;
+    margin: 0px auto;
 }
 
 nav {
     background-color: aquamarine;
+    margin: 0px auto;
 }
 
 main {
-    background-color: aqua;
+    background-color: beige;
+    height: 2000px;
 }
