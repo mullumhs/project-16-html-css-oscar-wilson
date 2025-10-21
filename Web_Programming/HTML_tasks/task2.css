@@ -4,6 +4,7 @@ body {
 
 p {
     color: #1f2f3f;
+    font-family: "Lexend", sans-serif;
 }
 
 nav {
@@ -26,11 +27,21 @@ li {
 }
 
 a {
-    color: chartreuse ;
+    color: #1f2f3f;
+    font-family: "Lexend", sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+    
 }
 
 table {
     padding-left: 5%;
+    color: #1f2f3f;
+    font-family: "Lexend", sans-serif;
 }
 
 h2 {
@@ -42,8 +53,15 @@ h2 {
 h1 {
     font-family: "Lexend", sans-serif;
     padding-left: 5%;
+    font-weight: 700;
     color: #1f2f3f;
     text-align: center;
     padding-bottom: 1%;
     margin-bottom: 0;
+}
+
+form {
+    padding-left: 5%;
+    color: #1f2f3f;
+    font-family: "Lexend", sans-serif;
 }
