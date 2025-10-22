@@ -13,6 +13,28 @@ body {
     font-family: "Lexend", sans-serif;
 }
 
-main {
-    padding-left: 5%;
+h1.gallery {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+img.col.gallery {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 1%;
+    margin-bottom: 2%;
+}
+
+div.col.gallery {
+    width: 33%;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+p.footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
